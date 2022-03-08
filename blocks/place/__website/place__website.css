@@ -1,0 +1,14 @@
+.place__website {
+  display: grid;
+  row-gap: 12px;
+  grid-template-rows: repeat(2, max-content);
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    grid-row: 2;
+    margin: 0 16px 0;
+    row-gap: 13px;
+  }
+}

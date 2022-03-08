@@ -1,0 +1,17 @@
+.footer__link {
+  font-size: 16px;
+  line-height: 1.1;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__link:hover {
+  cursor: url(../../../image/Imported\ Layers\ Copy\ 4.png), pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+  }
+}

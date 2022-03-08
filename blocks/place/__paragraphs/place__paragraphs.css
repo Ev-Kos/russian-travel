@@ -1,0 +1,30 @@
+.place__paragraphs {
+  grid-row: 2;
+  display: grid;
+  row-gap: 26px;
+  grid-template-rows: repeat(2, auto);
+  grid-template-rows: minmax(min-content, max-content)
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraphs {
+    row-gap: 27px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    row-gap: 25px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .place__paragraphs {
+    grid-row: 4;
+    row-gap: 25px;
+    max-width: 288px;
+    margin: 0 0 0 16px;
+  }
+}
+
