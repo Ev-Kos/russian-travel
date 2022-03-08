@@ -8,4 +8,4 @@
 **Используемые технологии**
 
 1. Flex-box
-2. Grid layout
+2. Grid layout 
