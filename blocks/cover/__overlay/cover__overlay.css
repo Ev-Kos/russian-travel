@@ -1,0 +1,10 @@
+.cover__overlay {
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cover__overlay:hover {
+  opacity: 0.3;
+  cursor: url(../../../image/Imported\ Layers\ Copy\ 4.png), pointer;
+}

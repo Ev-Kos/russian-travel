@@ -1,0 +1,13 @@
+.place__link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: underline;
+  color: #fff;
+  margin: 0;
+  justify-self: flex-start;
+}
+
+.place__link:hover {
+  cursor: url(../../../image/Imported\ Layers\ Copy\ 4.png), pointer;
+}
