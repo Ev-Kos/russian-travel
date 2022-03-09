@@ -1,7 +1,9 @@
 
   .page {
     background-color: #2A2C2F;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1280px;
+    min-width: 320px;
     font-size: 100%;
     font-weight: 400;
     -moz-osx-font-smoothing: grayscale;
@@ -9,8 +11,7 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    font-family: 'Inter';
-    max-width: 1280px;
+    font-family: 'Inter', Arial, sans-serif;
     color: #fff;
   }
 
@@ -26,8 +27,3 @@
     }
   }
 
-  @media screen and (max-width: 320px) {
-    .page {
-      max-width: 320px;
-    }
-  }

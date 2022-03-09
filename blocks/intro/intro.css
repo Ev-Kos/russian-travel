@@ -1,5 +1,5 @@
 .intro {
-  margin: 92px 442px 0 148px;
+  margin: 93px 442px 0 148px;
   max-width: 690px;
 }
 
@@ -11,14 +11,13 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin: 88px auto 0;
+    margin: 88px 24px 0;
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .intro {
     margin: 65px 16px 0;
-    max-width: 288px;
   }
 }
